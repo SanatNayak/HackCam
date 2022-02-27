@@ -17,12 +17,12 @@ printf "\e[1;92m██╔══██║██╔══██║██║     �
 printf "\e[1;92m██║  ██║██║  ██║╚██████╗██║  ██╗   \e[0m\e[1;77m ╚██████╗██║  ██║██║ ╚═╝ ██║    \e[0m\n"
 printf "\e[1;92m╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   \e[0m\e[1;77m  ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝     \e[0m\n"
 
-printf "\e[1;96m                                                          HackCam V1.0\e[0m\n"
+printf "\e[1;96m                                                     HackCam V1.0\e[0m\n"
 
 printf "\e[1;77m                    youtube.com/TechnicalSanatHindi \e[0m \n"                                  
                                                                            
 printf "\n"
-printf "\e[1;31m   [+]'This Tool Use For Educational Purpose Please Don't Miss Use!'[+]\e[0m\n"
+printf "\e[1;31m  [+]'This Tool Use For Educational Purpose Please Don't Miss Use!'[+]\e[0m\n"
 
 }
 
