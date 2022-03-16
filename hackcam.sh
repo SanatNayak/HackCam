@@ -302,4 +302,4 @@ checkfound
 
 banner
 dependencies
-camphish
+HackCam
