@@ -235,7 +235,7 @@ payload_ngrok
 checkfound
 }
 
-camphish() {
+hackcam() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -258,7 +258,7 @@ else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
-hackcam
+HackCam
 fi
 
 }
@@ -302,4 +302,4 @@ checkfound
 
 banner
 dependencies
-HackCam
+hackcam
