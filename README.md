@@ -7,8 +7,17 @@ Live Youtube Tv And Festival Wishing
 
 ```
 git clone https://github.com/hackerboysanat/HackCam
+```
+```
 cd HackCam
+```
+```
 apt-get -y install php openssh git wget
+
+```
+```
 chmod +x ./hackcam.sh
+```
+```
 ./hackcam.sh
 ```
